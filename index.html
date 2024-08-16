@@ -4,37 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de vida.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header>
-        <img src="https://github.com/DannelBA/hoja-de-vida/blob/main/recursos/fotoPerfil.jpg?raw=true" alt="Foto de perfil" width="100px">
-        <h1>Daniel Barros</h1>  
-        <h2>Estudiante de ingenieria de sistemas</h2>
-    </header>
-    <div class="Perfil">
-        <h2>Perfil</h2>
-        <p>Estudiante motivado de ingenieria de sistemas, con una sólida base en lenguaje de progamacion c++ y java. Destaco en la resolución de problemas, trabajo en equipo y rápida adaptación. Busco aplicar mis conocimientos y crecer profesionalmente en un entorno innovador.</p>
-    </div>
-    <div class="Contactos">
-        <h2>Contactos</h2>
-        <h3>telefono</h3>
-        <p>3003595128</p>
-        <h3>correo electronico</h3>
-        <p>barrosvargas2004@gmail.com</p>
-    </div>
-    <div class="Formacion academica">
-        <h2>Formación academica</h2>
-        <h3>Ingenieria de sistemas</h3>
-        <p>universidad del magdalena (En curso)</p>
-        <h3>Tecnico en asistencia administrativa</h3>
-        <p>SENA (Finalizado)</p>
-        <h3>Bachillerato</h3>
-        <p>I.E.D Aluna (Finalizado)</p>
-    </div>
-    <div class="Referencias">
-        <h2>Referencias</h2>
-        <h3>Claribel Vargas Guette</h3>
-        <p>3192803731</p>
+    <div id="container">
+        <header class="header">
+            <img src="https://github.com/DannelBA/hoja-de-vida/blob/main/recursos/fotoPerfil.jpg?raw=true" alt="Foto de perfil">
+            <div>
+                <h1>Daniel Barros</h1>
+                <h2>Estudiante de ingenieria de sistemas</h2>    
+            </div>
+        </header>
+        <div id="paneles">
+            <section id="leftPanel">
+                <h2>Contactos</h2>
+                <h3>Telefono</h3>
+                <p>3003595128</p>
+                <h3>Correo</h3>
+                <p>barrosvargas2004@gmail.com</p>
+                <br>
+                <h2>Referencias personales</h2>
+                <h3>Claribel Vargas Guette</h3>
+                <p>3003595128</p>
+            </section>
+    
+            <section id="rigthPanel">
+                <h2>Perfil</h2>
+                <p>
+                    Estudiante motivado de ingenieria de sistemas, 
+                   con una sólida base en lenguaje de progamacion 
+                   c++ y java. Destaco en la resolución de problemas, 
+                   trabajo en equipo y rápida adaptación. Busco aplicar 
+                   mis conocimientos y crecer profesionalmente en un 
+                   entorno innovador.
+                </p>
+                <br>
+                <h2>Formacion academica</h2>
+                <h3>Igeniero de sistemas</h3>
+                <p>universidad del magdalena <span>(En curso)</span></p>
+                <h3>Tecnico en asistencia administrativa</h3>
+                <p>SENA <span>(Finalizado)</span></p>
+                <h3>Bachillerato</h3>
+                <p>I.E.D Aluna <span>(Finalizado)</span></p>
+            </section>
+        </div>
     </div>
 </body>
 </html>
